@@ -35,6 +35,7 @@ def draw_plot():
     ax.set_xlabel('Year')
     ax.set_ylabel('Sea Level (inches)')
     ax.set_title('Rise in Sea Level')
+    ax.legend(['Line of Best Fit (All Data)', 'Line of Best Fit (Since 2000)', 'Observed Data'])
 
     
     # Save plot and return data for testing (DO NOT MODIFY)
